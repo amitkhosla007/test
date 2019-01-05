@@ -1,0 +1,56 @@
+
+computer@computer-PC MINGW64 /c/AGitLearning/Learning
+$ git clone https://github.com/amitkhosla007/test.git
+Cloning into 'test'...
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 11 (delta 2), reused 7 (delta 1), pack-reused 0
+Unpacking objects: 100% (11/11), done.
+
+computer@computer-PC MINGW64 /c/AGitLearning/Learning
+$ cd ^C
+
+computer@computer-PC MINGW64 /c/AGitLearning/Learning
+$ cd
+
+computer@computer-PC MINGW64 ~
+$ ^C
+
+computer@computer-PC MINGW64 ~
+$ cd /c/AGitLearning/Learning
+
+computer@computer-PC MINGW64 /c/AGitLearning/Learning
+$ ls -la
+total 8
+drwxr-xr-x 1 computer 197121 0 Jan  5 23:56 ./
+drwxr-xr-x 1 computer 197121 0 Jan  3 17:00 ../
+drwxr-xr-x 1 computer 197121 0 Jan  4 10:37 Demoapp/
+drwxr-xr-x 1 computer 197121 0 Jan  5 23:56 test/
+
+computer@computer-PC MINGW64 /c/AGitLearning/Learning
+$ cd /c/AGitLearning/Learning/test
+
+computer@computer-PC MINGW64 /c/AGitLearning/Learning/test (master)
+$ ls -la
+total 15
+drwxr-xr-x 1 computer 197121    0 Jan  5 23:56  ./
+drwxr-xr-x 1 computer 197121    0 Jan  5 23:56  ../
+drwxr-xr-x 1 computer 197121    0 Jan  5 23:56  .git/
+-rw-r--r-- 1 computer 197121    8 Jan  5 23:56  newfile
+-rw-r--r-- 1 computer 197121   15 Jan  5 23:56 'Readme - Copy - Copy.md'
+-rw-r--r-- 1 computer 197121   15 Jan  5 23:56 'Readme - Copy.md'
+-rw-r--r-- 1 computer 197121 3684 Jan  5 23:56  Readme.md
+
+computer@computer-PC MINGW64 /c/AGitLearning/Learning/test (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+computer@computer-PC MINGW64 /c/AGitLearning/Learning/test (master)
+$ ^C
+
+computer@computer-PC MINGW64 /c/AGitLearning/Learning/test (master)
+$
